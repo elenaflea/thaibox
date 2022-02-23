@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THAI BOX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!--    <link rel="stylesheet" type="/text/css" href="./styles.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    <a id="home"></a>
+    <div class="bg">
+        <div class="head">
+            <img class="logo" src="logothai.png" alt="logo">
+            <h1 class="tbhead">THAЇ BOX</h1>
+            <p class="cuisine">Fraîche cuisine asiatique</p>
+        </div>
+    </div>
+    <nav  id="myNav" class="topnav">
+        <a class="item start" href="#home" onclick="myFunctionMobile()">THAI BOX</a>
+        <div id="myLinks">
+        <a class="item" href="#carte" onclick="myFunctionMobile()">Carte</a>
+        <a class="item" href="#specialite" onclick="myFunctionMobile()">Spécialités</a>
+        <a class="item" href="#restaurant" onclick="myFunctionMobile()">Restaurant</a>
+        <a class="item active" href="#contact" onclick="myFunctionMobile()"><button class="btncontact">Contact</button></a>
+        </div>
+        <div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    
+
+<div class="container">
+    <div class="addresse">
+        <img src="locat.png" alt="addresse" width="70">
+        <p>51 avenue de la Gare, <br>
+            29900 Concarneau</p>
+    </div>
+    <div class="telephone" >
+        <img src="tel.png" alt="telephone" width="70">
+        <p><b><a class="tel" href="tel:+298948167">02.98.94.81.67</a></b></p>
+    </div>
+    <div class="addresse">
+        <img src="time.png" alt="horaires" width="70">
+        <p> Du Mardi au Vendredi : <br>
+            11h30 – 14h00 et 18h00 – 22h00 
+        </p>
+        <p>
+            Samedi et Dimanche : 18h00 – 22h00
+        </p>
+        <p>Lundi fermé</p>
+    </div>
+</div>
+<a id="carte"></a>
+<h2 class="notrecarte"> Notre carte</h2>
+<hr class="ligne">
+<p class="deskription">La carte est élaborée à partir de produits frais. <br>
+Les plats sont cuit sur place et à la minute.</p>
+<div class="carte">
+    <img class="myCarte" src="newcarteverso.jpg" alt="notre carte" >
+</div>
+<a id="specialite"></a>
+<h2 class="notrecarte">Nos spécialités</h2>
+<hr class="ligne">
+<p class="note">Wok du chef.</p>
+
+<div class="blok">
+    <div class="padthai">
+        <img class="photoplat" src="padthai.jpg" alt="pad thai" id="platOne">
+        <h3 class="plat">Pad Thaï</h3>
+        <p class="ingredients">pâtes, crevettes, soja, tamarin, <br>
+            cacahuètes, aromates</p>
+        <h3 class="plat">9,10€</h3>
+    </div>
+    <div class="padthai">
+        <img class="photoplat" src="padseeew.jpg" alt="pad see ew" id="platTwo">
+        <h3 class="plat">Pad See Ew</h3>
+        <p class="ingredients">pâtes blanches, boeuf, pad choy </p>
+        <h3 class="plat">9,10€</h3>
+    </div>
+    <div class="padthai">
+        <img class="photoplat" src="padmama.jpg" alt="pad mama" id="platThree">
+        <h3 class="plat">Pad Mama</h3>
+        <p class="ingredients">nouilles, boeuf, légumes verts</p>
+        <h3 class="plat">9,10€</h3>
+    </div>
+</div>
+<a id="restaurant"></a>
+<div class="chef">
+    <img class="hau" src="HAU copy.jpg" alt="chef">
+    <h2 class="notrecarte">Hau Phams</h2>
+    <p class="note">Le chef de THAI BOX</p>
+    <p class="deskription">Notre restaurant vous invite à un voyage en Asie. <br>
+    Venez déguster les savoureuses spécialités Thailandaises préparées par notre chef.</p>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.5351718306983!2d-3.925218679994663!3d47.87696258887414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4810db1f1718e469%3A0x5ff9c257e1cd8d48!2s51%20Avenue%20de%20la%20Gare%2C%2029900%20Concarneau!5e0!3m2!1sfr!2sfr!4v1613132440891!5m2!1sfr!2sfr" 
+width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+</iframe>
+
+<a id="contact"></a>
+<div class="gris">
+    <h3 class="emporter">Sur place ou à emporter</h3>
+    <p class="emporter"> <a class="call" href="tel:+298948167">02.98.94.81.67</a> <br>
+        51 avenue de la Gare, 29900 Concarneau
+    </p>
+    <div class="face-insta">
+    <a  class="fb" href="https://www.facebook.com/thaiboxconcarneau/" target="_blank"> <img src="facebook-wh.png" alt="facebook" width="40px" height="40px"></a>
+    <a class="fb" href="https://www.instagram.com/thaiboxconcarneau/?hl=fr" target="_blank"> <img src="instagram-wh2.png" alt="instagram" width="40px" height="40px"></a>
+    </div>
+</div>
+
+<div class="darkgris">
+    <a class="elena" href="https://grondin.glitch.me" target="_blank"> Création : Elena Grondin </a>
+</div>
+<div class="blackline"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,412 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    }
+.bg {
+    background-image: url("head1.jpg");
+    height: 100%; 
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #000000;
+    opacity: 0.8;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a.icon {
+    background:#FF7600;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #f2f2f2;
+    text-align: center;
+    object-position: center ;
+    padding: 23px 23px;
+    text-decoration: none;
+    font-size: 20px;
+    align-self: baseline;
+}
+.topnav a:hover {
+    color: #FF7600;
+}
+.topnav a:focus {
+    color: #fff;
+}
+.item {
+    color: #f2f2f2;
+    text-align: center;
+    object-position: center ;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    align-self: baseline;
+}
+.start {
+    margin-right: auto;
+    font-size: 25px;
+}
+.btncontact {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 60px;
+}
+.btncontact:hover {
+    background-color: #FF7600;
+}
+
+.head {
+    padding-top: 90px;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    width: 180px;
+    height: 142px;
+}
+.tbhead {
+    font-size: 100px;
+    color: #fff;
+    margin: 30px 0px 0px 0px;
+}
+.cuisine {
+    font-size: 25px;
+    color: #AAAAAA;
+    margin: 10px 0px 0px 0px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.addresse {
+text-align: center;
+font-size: 20px;
+color: #414040;
+flex: 1;
+padding: 20px;
+}
+.telephone {
+    text-align: center;
+    border-left: 2px solid #e7e6e1;
+    border-right: 2px solid #e7e6e1;
+    flex: 1;
+    padding: 20px;
+}
+.tel {
+    font-size: 33px;
+    text-decoration: none;
+    color: #232323;
+    flex: 1;
+}
+.carte {
+    display:flex;
+    justify-content: center;
+}
+.myCarte {
+    width: 80%;
+    margin: 40px 0px;
+}
+.notrecarte {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #151515;
+}
+.ligne {
+    margin-right: 47%;
+    margin-left : 47%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: #151515 1px solid;
+    text-align: center;
+}
+.deskription {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: #151515;
+}
+.note {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: #414040;
+}
+.blok {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    }
+.photoplat {
+    width: 400px;
+}
+.plat {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;    
+}
+.ingredients {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #414040;
+}
+.chef {
+    background-color: #f0f3f3;
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+}
+.hau {
+    width: 300px;
+    border-radius: 50%;
+}
+.gris {
+    background-color:  #151515;;
+    padding: 30px 0px;
+    text-align: center;
+}
+.emporter {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    color: #fff;
+}
+.emporter1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 20px;
+}
+.fb {
+    margin: 5px;
+}
+.darkgris {
+    background-color: #0f0f0f;
+    padding: 30px;
+    text-align: center;
+}
+.elena {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color:#e7e6e1;
+    font-size: 15px;
+}
+.call {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color:#e7e6e1;    
+}
+.blackline {
+    background-color: #000000;
+    padding: 4px;
+}
+
+@media all and (max-width: 500px) {
+    .body {
+        background-attachment: fixed;
+        background-size: 20%;
+    }
+    .topnav {
+        opacity: 1;
+        overflow-y: hidden;
+        transition: 0.5s;
+        flex-direction: column;
+    }
+    .topnav a.icon {
+        background-color: #000000
+    }
+    .topnav a {
+        color: #fff;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+    }
+    .btncontact {
+        margin-right: 0px;
+    }
+    .topnav a:hover, .topnav a:focus {
+        color: #f1f1f1;
+    }
+    .nav a {
+        font-size: 18px;
+    }
+    #main {
+        transition: margin-top 0.5s;
+        padding: 16px;
+    }
+    .item {
+        align-self: center;
+    }
+    .start {
+        margin-right: 0;
+    }
+    .logo{
+        width: 100px;
+        height: 80px;
+        margin-bottom: 30px;
+    }
+    .tbhead {
+        font-size: 50px;
+        margin: 0;
+    }
+    .cuisine {
+        font-size: 20px;
+    }
+    .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .telephone {
+        border-top: 1px solid #AAAAAA;
+        border-bottom: 1px solid #AAAAAA;
+        border-left: none;
+        border-right: none;
+    }
+    .photoplat {
+        width: 100%;
+        margin-top: 7%;
+    }
+    .plat {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .ingredients {
+        text-align: center;
+        margin-top: 0;
+    }
+    .hau {
+        width: 250px;
+    }
+    .deskription {
+    padding: 5px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+    .body {
+        background-attachment: fixed;
+        background-size: 20%;
+    }
+    .topnav {
+        width: 100%;
+        opacity: 1;
+        background-color: #000000;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-y: hidden;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+    }
+    .topnav a.icon {
+        background-color: #000000
+    }
+    .topnav a {
+        color: #fff;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+    }
+    .btncontact {
+        margin-right: 0px;
+    }
+    .topnav a:hover, .topnav a:focus {
+        color: #f1f1f1;
+    }
+    .nav a {
+        font-size: 18px;
+    }
+    #main {
+        transition: margin-top 0.5s;
+        padding: 16px;
+    }
+    .item {
+        align-self: center;
+    }
+    .start {
+        margin-right: 0;
+    }
+    .logo{
+        width: 100px;
+        height: 80px;
+        margin-bottom: 30px;
+    }
+    .tbhead {
+        font-size: 50px;
+        margin: 0;
+    }
+    .cuisine {
+        font-size: 20px;
+    }
+    .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .telephone {
+        border-top: 1px solid #AAAAAA;
+        border-bottom: 1px solid #AAAAAA;
+        border-left: none;
+        border-right: none;
+    }
+    .photoplat {
+        width: 100%;
+        margin-top: 7%;
+    }
+    .plat {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .ingredients {
+        text-align: center;
+        margin-top: 0;
+    }
+    .hau {
+        width: 250px;
+    }
+    .deskription {
+    padding: 5px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+}
