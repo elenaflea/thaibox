@@ -74,3 +74,5 @@
         gsap.to("#platThree", {scale: 1.01, duration: 2})
     }
 
+
+    document.querySelector("#year").innerHTML  = new Date().getFullYear();
